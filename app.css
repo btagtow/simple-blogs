@@ -1,0 +1,19 @@
+.text{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: flex-start;
+    
+}
+.form-blog{
+    width: 13rem;
+}
+button{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: flex-end;
+    
+    
+}
+/* input{
+    padding-left: 20rem;
+} */

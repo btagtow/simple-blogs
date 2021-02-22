@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>Document</title>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <h1 class="title">Simple Blogs</h1>
+    <form class="form-blog">
+        <div class="form-box text error">
+            <label for="input-title">Title</label>
+            <input type="text" id="input-title" autofocus placeholder="title"/>
+        </div>
+        <div class="form-box text error">
+            <label for="input input-content">Content</label>
+            <input class="form-content" placeholder="content"/>
+        </div>
+        <div class="form-box text">
+            <label for="input-email">Email</label>
+            <input type="email" id="input-email" placeholder="email"/>
+        </div>
+        <div class="form-box">
+            <label for="input-rank">Rank</label>
+            <select id="input-rank">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+        </div>
+        <div class="form-box">
+            <label for="input-verified">Verified?</label>
+            <input type="checkbox" id="verified" checked/>
+        </div>
+        
+        <button class="add">Add a blog</button>
+    </form>
+</body>
+</html>
